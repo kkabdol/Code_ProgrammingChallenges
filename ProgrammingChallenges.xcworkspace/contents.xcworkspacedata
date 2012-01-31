@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:Problem10189/Problem10189.xcodeproj">
+   </FileRef>
    <Group
       location = "group:Problem100"
       name = "Problem100">
