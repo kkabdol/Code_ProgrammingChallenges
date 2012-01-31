@@ -90,6 +90,7 @@
 		255389B214CAAD7200CB3E4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Kkabdol;
 			};
 			buildConfigurationList = 255389B514CAAD7200CB3E4A /* Build configuration list for PBXProject "Problem100" */;
@@ -194,6 +195,7 @@
 				255389C614CAAD7300CB3E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
