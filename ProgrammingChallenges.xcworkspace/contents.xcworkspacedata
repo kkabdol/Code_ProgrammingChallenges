@@ -2,23 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Problem10189/Problem10189.xcodeproj">
+      location = "group:Problem100/Problem100.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:Problem100"
-      name = "Problem100">
-      <Group
-         location = "group:Problem100"
-         name = "Problem100">
-         <FileRef
-            location = "group:main.cpp">
-         </FileRef>
-         <FileRef
-            location = "group:Problem100.1">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:Problem100.xcodeproj">
-      </FileRef>
-   </Group>
+   <FileRef
+      location = "group:Problem100/../Problem10189/Problem10189.xcodeproj">
+   </FileRef>
 </Workspace>
