@@ -92,7 +92,7 @@
 		25BE8F7B14D7FECF00CF9B2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = "kkabdol@gmail.com";
 			};
 			buildConfigurationList = 25BE8F7E14D7FECF00CF9B2B /* Build configuration list for PBXProject "Problem10189" */;
@@ -204,6 +204,7 @@
 				25BE8F9014D7FECF00CF9B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

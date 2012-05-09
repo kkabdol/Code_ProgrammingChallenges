@@ -5,6 +5,6 @@
       location = "group:Problem100/Problem100.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Problem100/../Problem10189/Problem10189.xcodeproj">
+      location = "group:Problem10189/Problem10189.xcodeproj">
    </FileRef>
 </Workspace>

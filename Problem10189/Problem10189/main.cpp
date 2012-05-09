@@ -18,7 +18,7 @@ int main (int argc, const char * argv[])
     int n, m;
     int count = 0;
     
-    while(cout >> n >> m) {
+    while(cin >> n >> m) {
         if (n == 0 && m == 0) {
             break;
         }
