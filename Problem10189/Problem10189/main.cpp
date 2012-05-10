@@ -8,7 +8,7 @@
 //  Copyright (c) 2012 kkabdol@gmail.com. All rights reserved.
 //
 
-// 5.10.2012 Wrong Answer
+// 5.10.2012 Accepted
 
 #include <iostream>
 #ifndef ONLINE_JUDGE
@@ -50,6 +50,12 @@ int main (int argc, const char * argv[])
     while(in >> n >> m) {
         if (n == 0 && m == 0) {
             break;
+        } else if(n == 0 || m == 0) {
+            continue;
+        }
+        
+        if (count > 0) {
+            cout << endl;
         }
         
         cleanMineMap(map, kMaxN*kMaxM);
@@ -60,7 +66,7 @@ int main (int argc, const char * argv[])
 
         cout << "Field #" << ++count << ":" << endl;
         printMineMap(map, n, m);
-        cout << endl;
+        
     }
 
 #ifndef ONLINE_JUDGE
@@ -99,6 +105,7 @@ void makeMineMap(char *map, int n, int m)
 void printMineMap(char *map, int n, int m)
 {
     for (int i=1; i<=n; i++) {
+        map[i*kMaxM + m+1] = '\0';
         cout << (map + i*kMaxM + 1) << endl;
     }    
 }
