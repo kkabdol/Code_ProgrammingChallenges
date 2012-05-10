@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		25BE8F8914D7FECF00CF9B2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25BE8F8814D7FECF00CF9B2B /* main.cpp */; };
-		25BE8F8B14D7FECF00CF9B2B /* Problem10189.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25BE8F8A14D7FECF00CF9B2B /* Problem10189.1 */; };
+		25CD41F2155B803A004D747B /* testcase.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2558236E155B437F008467EE /* testcase.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		25BE8F8214D7FECF00CF9B2B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = usr/share/man/man1;
-			dstSubfolderSpec = 1;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
-				25BE8F8B14D7FECF00CF9B2B /* Problem10189.1 in CopyFiles */,
+				25CD41F2155B803A004D747B /* testcase.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 

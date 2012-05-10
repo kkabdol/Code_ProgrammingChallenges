@@ -11,6 +11,9 @@
 // 5.10.2012 Wrong Answer
 
 #include <iostream>
+#ifndef ONLINE_JUDGE
+#include <fstream>
+#endif
 #include <string.h>
 using namespace std;
 
@@ -30,16 +33,28 @@ int main (int argc, const char * argv[])
     int n, m;
     int count = 0;
 
+    istream in(cin.rdbuf());
+#ifndef ONLINE_JUDGE
+    ifstream fin("testcase.txt");  // declarations of streams fp_in and fp_out
+    if (fin) {
+        in.rdbuf(fin.rdbuf());
+    } else {
+        cout << "can not read testcase.txt" << endl;
+    }
+    
+#endif
+
+    
     char map[kMaxN*kMaxM];
     
-    while(cin >> n >> m) {
+    while(in >> n >> m) {
         if (n == 0 && m == 0) {
             break;
         }
         
         cleanMineMap(map, kMaxN*kMaxM);
         for (int i=1; i<=n; i++) {
-            cin >> (map + i*kMaxM + 1);
+            in >> (map + i*kMaxM + 1);
         }
         makeMineMap(map, n, m);
 
@@ -48,6 +63,10 @@ int main (int argc, const char * argv[])
         cout << endl;
     }
 
+#ifndef ONLINE_JUDGE
+    fin.close();
+#endif
+    
     return 0;
 }
 
