@@ -13,7 +13,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "82"
          endingLineNumber = "82"
-         landmarkName = "makeMineMap(char *map, int n, int m)"
+         landmarkName = "cleanMineMap(char *map, int size)"
          landmarkType = "7">
       </FileBreakpoint>
    </FileBreakpoints>
