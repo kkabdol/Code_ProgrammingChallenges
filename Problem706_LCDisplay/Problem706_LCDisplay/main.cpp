@@ -59,7 +59,7 @@ int main(int argc, const char * argv[])
     
     while (cin >> s && cin >> str) {
         
-        if (s == 0 || str == "0") {
+        if (s == 0 && str == "0") {
             break;
         } else {
             print(str, s);
