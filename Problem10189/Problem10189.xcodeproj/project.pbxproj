@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2558236C155B3F35008467EE /* Minesweeper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Minesweeper.pdf; sourceTree = "<group>"; };
+		252AC6CD167468E80055F05A /* Minesweeper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Minesweeper.pdf; sourceTree = "<group>"; };
 		2558236E155B437F008467EE /* testcase.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testcase.txt; sourceTree = "<group>"; };
 		25BE8F8414D7FECF00CF9B2B /* Problem10189 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Problem10189; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BE8F8814D7FECF00CF9B2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		25BE8F8714D7FECF00CF9B2B /* Problem10189 */ = {
 			isa = PBXGroup;
 			children = (
-				2558236C155B3F35008467EE /* Minesweeper.pdf */,
+				252AC6CD167468E80055F05A /* Minesweeper.pdf */,
 				2558236E155B437F008467EE /* testcase.txt */,
 				25BE8F8814D7FECF00CF9B2B /* main.cpp */,
 				25BE8F8A14D7FECF00CF9B2B /* Problem10189.1 */,

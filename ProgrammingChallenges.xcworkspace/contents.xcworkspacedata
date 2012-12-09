@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Problem706_LCDisplay/Problem706_LCDisplay.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Problem10137_TheTrip/Problem10137_TheTrip.xcodeproj">
    </FileRef>
    <FileRef
