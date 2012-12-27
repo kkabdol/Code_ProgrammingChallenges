@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2550FE97168B0C0E0055BC1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2550FE96168B0C0E0055BC1B /* main.cpp */; };
-		2550FE99168B0C0E0055BC1B /* Problem10267_GraphicalEditor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2550FE98168B0C0E0055BC1B /* Problem10267_GraphicalEditor.1 */; };
+		2550FEA1168BDB2B0055BC1B /* testcase.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2550FEA0168BDAD70055BC1B /* testcase.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2550FE90168B0C0E0055BC1B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
-				2550FE99168B0C0E0055BC1B /* Problem10267_GraphicalEditor.1 in CopyFiles */,
+				2550FEA1168BDB2B0055BC1B /* testcase.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -29,6 +29,7 @@
 		2550FE96168B0C0E0055BC1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2550FE98168B0C0E0055BC1B /* Problem10267_GraphicalEditor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Problem10267_GraphicalEditor.1; sourceTree = "<group>"; };
 		2550FE9F168B17D40055BC1B /* Problem E: Graphical Editor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Problem E: Graphical Editor.pdf"; sourceTree = "<group>"; };
+		2550FEA0168BDAD70055BC1B /* testcase.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testcase.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				2550FE9F168B17D40055BC1B /* Problem E: Graphical Editor.pdf */,
 				2550FE96168B0C0E0055BC1B /* main.cpp */,
 				2550FE98168B0C0E0055BC1B /* Problem10267_GraphicalEditor.1 */,
+				2550FEA0168BDAD70055BC1B /* testcase.txt */,
 			);
 			path = Problem10267_GraphicalEditor;
 			sourceTree = "<group>";
